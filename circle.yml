@@ -1,9 +1,6 @@
 general:
    build_dir: api   
-   artifacts:
-     - $CIRCLE_TEST_REPORTS
-     - target
-     
+        
 test:
   override:
     - mvn clean install
