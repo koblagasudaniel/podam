@@ -1,8 +1,11 @@
      
+
+
 general:
    artifacts:
      - $CIRCLE_TEST_REPORTS
      - target
+    build_dir: api
      
 test:
   override:
