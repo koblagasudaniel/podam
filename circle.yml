@@ -1,6 +1,3 @@
-     
-
-
 general:
    artifacts:
      - $CIRCLE_TEST_REPORTS
